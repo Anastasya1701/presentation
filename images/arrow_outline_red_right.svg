@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.0" viewBox="0 0 234.96 177.62" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+<metadata>
+<rdf:RDF>
+<cc:Work rdf:about="">
+<dc:title/>
+<dc:description/>
+<dc:subject>
+<rdf:Bag>
+<rdf:li>navigation</rdf:li>
+<rdf:li/>
+<rdf:li>interface</rdf:li>
+<rdf:li>shape</rdf:li>
+<rdf:li>arrow</rdf:li>
+</rdf:Bag>
+</dc:subject>
+<dc:publisher>
+<cc:Agent rdf:about="http://www.openclipart.org">
+<dc:title>Pixelator</dc:title>
+</cc:Agent>
+</dc:publisher>
+<dc:creator>
+<cc:Agent>
+<dc:title>Pixelator</dc:title>
+</cc:Agent>
+</dc:creator>
+<dc:rights>
+<cc:Agent>
+<dc:title>Pixelator</dc:title>
+</cc:Agent>
+</dc:rights>
+<dc:date/>
+<dc:format>image/svg+xml</dc:format>
+<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+<cc:license rdf:resource="http://web.resource.org/cc/PublicDomain"/>
+<dc:language>en</dc:language>
+</cc:Work>
+<cc:License rdf:about="http://web.resource.org/cc/PublicDomain">
+<cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+<cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+</cc:License>
+</rdf:RDF>
+</metadata>
+<path d="m113.02 3.7768 11.789 59.704-121.03-12.589v79.533l121.03-12.589-11.789 56.008 118.17-83.185-118.17-86.881z" fill="#f00" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.5536"/>
+</svg>
