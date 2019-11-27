@@ -1,168 +1,283 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<link rel="stylesheet" href="css/reset.css">
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/night.css">
+	<title>reveal.js</title>
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/monokai.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/night.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section class="firstSection">
-					<h1 >React</h1>
-					<img src="images/React-Native-Apps-Illustration.jpg"  class="fsc"	alt="">
-				</section>
-				<section>
-					<img src="./images/blackEyePice.jpg" alt="">
-					<div>LET'S GET IT STARTED</div>
-				</section>
-				<section class="secondSection">
-						<h2>REACT IS MAINLY THE VIEW LAYER</h2>
-					<div>
-						He gives you a template language and some function hooks to essentially render HTML. 
-						That's all React outputs, HTML. Your bundles of HTML / JavaScript, called "components," 
-						can have their own internal state (such as which tab is selected in a tab view), 
-						but in the end you just barf out HTML.
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/monokai.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section class="firstSection">
+				<h1 class="blu-color">React</h1>
+				<img src="images/React-Native-Apps-Illustration.jpg" class="fsc" alt="">
+			</section>
+			<section>
+				<img src="./images/blackEyePice.jpg" alt="">
+				<div>LET'S GET IT STARTED</div>
+			</section>
+			<section class="secondHalfSection">
+				<h2 class="blu-color">Who Uses React?</h2>
+				<div class="Split">
+					<div class="Split-column">
+						<ul>
+							<li>Atlassian</li>
+							<li>BBC</li>
+							<li>Codecademy</li>
+							<li>Dropbox</li>
+							<li>EveryDollar</li>
+							<li>Facebook</li>
+							<li>Flipboard</li>
+							<li>GitHub</li>
+							<li>Imgur</li>
+							<li>Instagram</li>
+						</ul>
 					</div>
-				</section>
-				<section class="FourthSection">
-						<h2>HISTORY</h2>
-					<div>
-						WIKIPEDIA SUGGESTS THAT REACT WAS CREATED BY JORDAN VALKE, A FACEBOOK SOFTWARE DEVELOPER.
-						<br>
-						THE FIRST TIME REACT WAS USED IN THE FACEBOOK NEWS FEED IN 2011 AND LATER IN THE INSTAGRAM FEED IN 2012.
-						<br> 
-						REACT SOURCE CODE WAS OPENED IN MAY 2013 AT THE JSCONF US CONFERENCE
+					<div class="Split-column">
+						<ul>
+							<li>Khan Academy</li>
+							<li>Netflix</li>
+							<li>PayPal</li>
+							<li>Reddit</li>
+							<li>Salesforce</li>
+							<li>Venmo</li>
+							<li>WhatsApp</li>
+							<li>Wired</li>
+							<li>Yahoo</li>
+						</ul>
 					</div>
-				</section>
-				<section class="fifthSection">
-					<h1>What is so great about react?</h1>
-				</section>
-				<section>
-					Easily reason about how views render and also make your code more predictable and easier to debug.
-				</section>
-				<section class="six-section">
-					<h2>COMPONENT - BASED</h2>
-					<div>
-						Build encapsulated components that manage their own state, then compose them to make complex UIs.
-						<br>
-						Since component logic is written in JavaScript instead of templates, 
-						you can easily pass rich data through your app and keep state out of the DOM.
-					</div>
-				</section >
-				<section class="seven-section">
-					<h2>LEARN ONCE, WRITE ANYWHERE</h2>
-					<div>
-						We don’t make assumptions about the rest of your technology stack, 
-						so you can develop new features in React without rewriting existing code.
-					</div>
-				</section>
-				<section class="eight-section">
-					<h1>
-						Get Started Immediately
-					</h1>
-				</section>
-				<section class="nine-section">
-					<h4>AT FIRST:</h4>
-					<pre>
-						<code>npx create-react-app my-app</code>
-					</pre>
-					<h4 class="fragment visible" data-fragment-index="1">SECONDLY:</h4>
-					<pre class="fragment visible" data-fragment-index="1">
-						<code>cd my-app</code>
-					</pre>
-					<h4 class="fragment visible" data-fragment-index="2">THIRD:</h4>
-					<pre class="fragment visible" data-fragment-index="2">
-						<code>npm start</code>
-					</pre>
-					<div class="fragment visible" data-fragment-index="3">Open <a href="http://localhost:3000">http://localhost:3000</a> to view it in the browser.</div>
-				</section>
-				<section class="ten-section">
-					<h3 class="components">THERE ARE 3 CONSEPTS YOU SHOULD KNOW in REACT</h3>
-						<h3 class="fragment visible" data-fragment-index="1">1. JSX</h3>
-						<h3 class="fragment visible" data-fragment-index="2">2. COMPONENTS</h3>
-						<h3 class="fragment visible" data-fragment-index="3">3. PROPS</h3>
-				</section>
-				<section class="eleven-section">
-					<h2>WHAT THE HELL IS JSX?</h2>
-					<img src="./images/jsx.jpg" alt="">
-				</section>
-				<section class="twellew-section">
-					<h3>JSX is an <span class="optional">optional</span> preprocessor to let you use HTML-LIKE SYNTAX.</h3>
-					<pre class="fragment visible" data-fragment-index="1"><code><a href= “https://www.instagram.com/rollingscopes”>
+				</div>
+			</section>
+			<section class="ThreeSection" data-reactid=".0.0.0">
+				<h2 id="so-it-s-like-angular-or-ember-" class="blu-color">So, It's like Angular or Ember?</h2>
+				<h2 id="no">No</h2>
+				<blockquote>
+					<p> "Lots of people use React as the V in MVC." -- <a
+							href="https://facebook.github.io/react/">React</a></p>
+				</blockquote>
+			</section>
+			<section class="secondSection">
+				<h3 class="blu-color">REACT IS MAINLY THE VIEW LAYER</h3>
+				<h3 class="blu-color">React is a JavaScript library. It’s not a framework.</h3>
+				<div>
+					He gives you a template language and some function hooks to essentially render HTML.
+					That's all React outputs, HTML.
+					<br>
+					Your bundles of HTML / JavaScript, called "components,"
+					can have their own internal state (such as which tab is selected in a tab view),
+					but in the end you just barf out HTML.
+				</div>
+			</section>
+			<section class="FourthSection">
+				<h2>HISTORY</h2>
+				<div class="blu-color">
+					WIKIPEDIA SUGGESTS THAT REACT WAS CREATED BY JORDAN VALKE, A FACEBOOK SOFTWARE DEVELOPER.
+					<br>
+					THE FIRST TIME REACT WAS USED IN THE FACEBOOK NEWS FEED IN 2011 AND LATER IN THE INSTAGRAM FEED IN
+					2012.
+					<br>
+					REACT SOURCE CODE WAS OPENED IN MAY 2013 AT THE JSCONF US CONFERENCE
+				</div>
+			</section>
+			<section class="fifthSection">
+				<h1 class="blu-color">What is so great about react?</h1>
+			</section>
+			<section class="fifthAndHalfSection">
+				<h2 class="blu-color">Working with the DOM API is hard. </h2>
+				<br>
+				React basically gives developers the ability to work with a virtual browser that is more friendly than
+				the real browser.
+				React’s virtual browser acts like an agent between the developer and the real browser.
+			</section>
+			<section class="six-section">
+				<h2>COMPONENT - BASED</h2>
+				<div class="blu-color">
+					Build encapsulated components that manage their own state, then compose them to make complex UIs.
+					<br>
+					Since component logic is written in JavaScript instead of templates,
+					you can easily pass rich data through your app and keep state out of the DOM.
+				</div>
+			</section>
+			<section class="seven-section">
+				<h2 class="blu-color">LEARN ONCE, WRITE ANYWHERE</h2>
+				<div>
+					We don’t make assumptions about the rest of your technology stack,
+					so you can develop new features in React without rewriting existing code.
+				</div>
+			</section>
+			<section class="eight-section">
+				<h1 class="blu-color">
+					Get Started Immediately
+				</h1>
+			</section>
+			<section class="nine-section">
+				<h4>AT FIRST:</h4>
+				<pre>
+						<code>npx create-react-app my-app</code></pre>
+				<div class="blu-color">
+					npx is a package runner tool that comes with npm 5.2+ and higher
+				</div>
+				<h4 class="fragment visible" data-fragment-index="1">SECONDLY:</h4>
+				<pre class="fragment visible" data-fragment-index="1"><code>cd my-app</code></pre>
+				<div class="blu-color fragment visible" data-fragment-index="1">
+					No complicated folder structures, only the files you need to build your app
+				</div>
+				<h4 class="fragment visible" data-fragment-index="2">THIRD:</h4>
+				<pre class="fragment visible" data-fragment-index="2">
+						<code>npm start</code></pre>
+			</section>
+			<section>
+				<h3>
+					Open
+					<a href="http://localhost:3000">
+						http://localhost:3000
+					</a>
+					to view it in the browser
+				</h3>
+				<h3 class="fragment visible">
+					The page will automatically reload if you make changes to the code.
+					You will see the build errors and lint warnings in the console.
+				</h3>
+			</section>
+			<section class="ten-section">
+				<h3 class="blu-color">THERE ARE 3 CONCEPTS YOU SHOULD KNOW in REACT</h3>
+				<h3 class="fragment visible" data-fragment-index="1">1. JSX</h3>
+				<h3 class="fragment visible" data-fragment-index="2">2. COMPONENTS</h3>
+				<h3 class="fragment visible" data-fragment-index="3">3. PROPS</h3>
+			</section>
+			<section data-background="./images/jsx.jpg" class="eleven-section">
+				<h2>WHAT THE HELL IS JSX?</h2>
+			</section>
+			<section class="elevenHalf-section">
+				<h2>
+					JSX is an <span class="blu-color">optional</span> preprocessor to let you use HTML-LIKE SYNTAX.
+				</h2>
+			</section>
+			<section class="twellew-section">
+				<h3 class="current-visible" data-fragment-index="1">
+					it is a syntax extension that let you write code that looks like this:
+				</h3>
+				<pre class="current-visible" data-fragment-index="1"><code><a href= “https://www.instagram.com/rollingscopes”>
 @rollingscopes on Instagram;
 </a></code></pre>
-					<pre class="fragment visible" data-fragment-index="2"><code>React.DOM.a(
+				<h3 class="fragment visible current-visible" data-fragment-index="2">
+					Translates into the code that looks like that:
+				</h3>
+				<pre class="fragment visible current-visible" data-fragment-index="2"><code>React.DOM.a(
 {href: ‘https://www.instagram.com/rollingscopes’},  
 	‘rollingscopes on Instagram’
 )</code></pre>
-				</section>
-				<section>
-					<h2>COMPONENTS</h2>
-					<img src="./images/components.jpg" alt="">
-				</section>
-				<section class="third-section">
-					<h4>Components let you split the UI into independent, 
-						reusable pieces, and think about each piece in isolation. 
-						This page provides an introduction to the idea of components.
-						<br>
-						Conceptually, components are like JavaScript functions. 
-						They accept arbitrary inputs (called “props”) and return 
-						React elements describing what should appear on the screen.
+			</section>
+			<section>
+				<div class="blu-color">And that is all it does</div>
+				<div>
+					The is no runtime that supports this.
+					<br>
+					We are simply taking expressions, that look like HTML and turning them into function calls.
+					You can put any valid JavaScript expression inside the curly braces in JSX.
+					<br>
+					For example
+					<blockquote class="blu-color"> 2 + 2 or user.firstName </blockquote>
+					are all valid JavaScript expressions.
+				</div>
+			</section>
+			<section>
+				<h2>COMPONENTS</h2>
+				<img src="./images/components.jpg" alt="">
+			</section>
+			<section class="third-section">
+				<h2 class="blu-color">
+					A component is an independent, reusable code block, which divides the UI into smaller pieces
+				</h2>
+			</section>
+			<section>
+				<div>
+					<h4 class="blu-color">
+						In other words, we can think of components as LEGO blocks.
+						Likewise we create a LEGO structure from many little LEGO blocks,
+						we create a webpage or UI from many little code blocks (components)
 					</h4>
-					<pre><code>function Welcome(props) {
-return <h1>Hello, {props.name}</h1>;
-}</code></pre>
-				</section>
-				<section>
-					<img src="./images/Снимок1.PNG" alt="">
-					<h5>
-						PROPS ARE REACT’S WAY OF MAKING COMPONENTS EASILY AND DYNAMICALLY CUSTOMISABLE. 
-						THEY PROVIDE A WAY OF PASSING PROPERTIES/DATA DOWN FROM ONE COMPONENT TO ANOTHER, 
-						TYPICALLY FROM A PARENT TO A CHILD COMPONENT/
-						PROPS ARE READ-ONLY AND THAT A COMPONENT MUST NEVER MODIFY THE PROPS PASSED TO IT. 
-						AS SUCH, WHEN A COMPONENT IS PASSED PROPS AS INPUT, 
-						IT SHOULD ALWAYS RETURN THE SAME RESULT FOR THE SAME INPUT.
-					</h5>
-				</section>
-				<section>
-					<h3>THANK YOU FOR ATTENTION!</h3>
-					<img src="./images/best-goodnight-memes-for-her.jpg"></img>
-				</section>
-			</div>
+					<img src="./images/componentExample.PNG" class="border-none" alt="">
+				</div>
+			</section>
+			<section class="SlideManager-slide blu-color">
+				<h3 class="blu-color">Hello World Component</h3>
+				<div class="flex">
+					<img src="./images/componentExample2.PNG" class="componentImage border-none" alt="">
+					<div class="Split-column Split-column--35">
+						<p>1-3. <code class=" language-jsx">HelloWorld</code> component is just a function!</p>
+						<p>5-8. <code
+								class=" language-jsx">ReactDOM<span class="token punctuation">.</span>render</code>
+							creates
+							the component, starts the framework, and injects HTML into a DOM node.</p>
+					</div>
+				</div>
+
+			</section>
+			<section>
+				<h2 class="blu-color">PROPS</h2>
+				<h4>
+					Conceptually, components are like JavaScript functions.
+					They accept atributes (called “props”) and return
+					React elements describing what should appear on the screen
+				</h4>
+				<pre><code>function Welcome(props) {
+	return <h1>Hello, {props.name}</h1>;
+	}</code></pre>
+			</section>
+			<section>
+				<div class="flex">
+					<img src="./images/componentExample3.PNG" class="border-none" alt="">
+					<div class="f2">
+						<p>1-3. You can access this data with the <code class=" language-jsx">props</code> parameter inside of a JavaScript
+							Expression <code
+								class=" language-jsx"><span class="token punctuation">{</span><span class="token punctuation">}</span></code>.
+						</p>
+						<p>9. You can pass read-only properties to a React component via its attributes.</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h3>THANK YOU FOR ATTENTION!</h3>
+				<img src="./images/best-goodnight-memes-for-her.jpg"></img>
+			</section>
 		</div>
+	</div>
 
-		<script src="js/reveal.js"></script>
+	<script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true }
-				]
-			});
-		</script>
-	</body>
+	<script>
+		// More info about config & dependencies:
+		// - https://github.com/hakimel/reveal.js#configuration
+		// - https://github.com/hakimel/reveal.js#dependencies
+		Reveal.initialize({
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true }
+			]
+		});
+	</script>
+</body>
+
 </html>
