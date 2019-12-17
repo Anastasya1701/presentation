@@ -87,6 +87,9 @@
 					but in the end you just barf out HTML.
 				</div>
 			</section>
+			<section>
+				<img src="./images/maxresdefault.jpg" alt="">
+			</section>
 			<section class="FourthSection">
 				<h2>HISTORY</h2>
 				<div class="blu-color">
@@ -102,13 +105,39 @@
 				<h1 class="blu-color">What is so great about react?</h1>
 			</section>
 			<section class="fifthAndHalfSection">
+				<h2 class="blu-color">React is always ready</h2>
+				<br>
+				React got its name from the fact that it reacts to changes in the state (although not reactively, but on schedule). 
+				It was a joke that React should have been named Schedule!
+				<br>
+				However, what we see when updating the state of any component is that React reacts to this update and automatically 
+				render the update in the DOM browser (if necessary).
+			</section>
+			<section>
+				<img src="./images/render.jpg" class="render-image" alt="">
+			</section>
+			<!-- <section>
+				The input for the render function is:
+				<br>
+				1. props, which are passed by the parent;
+				<br>
+				2. internal state, which can be updated at any time;
+			
+				When the input to the render function changes, the result may also change.
+			
+				React records the rendering history, and when it see that one render is different from the previous one, it
+				calculates the difference between them and effectively translates the difference into the actual DOM API operations
+				that will then be performed in the DOM.
+			</section> -->
+
+			<!-- <section class="fifthAndHalfSection">
 				<h2 class="blu-color">Working with the DOM API is hard. </h2>
 				<br>
 				React basically gives developers the ability to work with a virtual browser that is more friendly than
 				the real browser.
 				React’s virtual browser acts like an agent between the developer and the real browser.
-			</section>
-			<section class="six-section">
+			</section> -->
+			<!-- <section class="six-section">
 				<h2>COMPONENT - BASED</h2>
 				<div class="blu-color">
 					Build encapsulated components that manage their own state, then compose them to make complex UIs.
@@ -123,7 +152,7 @@
 					We don’t make assumptions about the rest of your technology stack,
 					so you can develop new features in React without rewriting existing code.
 				</div>
-			</section>
+			</section> -->
 			<section class="eight-section">
 				<h1 class="blu-color">
 					Get Started Immediately
@@ -216,14 +245,14 @@
 						Likewise we create a LEGO structure from many little LEGO blocks,
 						we create a webpage or UI from many little code blocks (components)
 					</h4>
-					<img src="./images/componentExample.PNG" class="border-none" alt="">
+					<img src="./images/components-lego.jpeg" class="img-componrnt-lego" alt="">
 				</div>
 			</section>
 			<section class="SlideManager-slide blu-color">
 				<h3 class="blu-color">Hello World Component</h3>
 				<div class="flex">
 					<img src="./images/componentExample2.PNG" class="componentImage border-none" alt="">
-					<div class="Split-column Split-column--35">
+					<div class="Split-column Split-column--35 component-div">
 						<p>1-3. <code class=" language-jsx">HelloWorld</code> component is just a function!</p>
 						<p>5-8. <code
 								class=" language-jsx">ReactDOM<span class="token punctuation">.</span>render</code>
@@ -231,7 +260,19 @@
 							the component, starts the framework, and injects HTML into a DOM node.</p>
 					</div>
 				</div>
-
+			</section>
+			<section>
+				<h1 id="class-syntax" class="blu-color">Class Syntax</h1>
+				<div class="components-es">
+					<img src="./images/componentsES6.PNG" class="border-none es" alt="">
+					<div class="div-es">
+						<p>1. Can use the ECMAScript 2015 (ES6) <code
+								class=" language-jsx"><span class="token keyword keyword-class">class</span></code> and extend <code
+								class=" language-jsx">React<span class="token punctuation">.</span>Component</code></p>
+						<p>2. The <code class=" language-jsx">render</code> method is required. You can think of this as your
+							template.</p>
+					</div>
+				</div>
 			</section>
 			<section>
 				<h2 class="blu-color">PROPS</h2>
@@ -245,6 +286,7 @@
 	}</code></pre>
 			</section>
 			<section>
+					<h3 class="blu-color">Using the Props Parameter</h3>
 				<div class="flex">
 					<img src="./images/componentExample3.PNG" class="border-none" alt="">
 					<div class="f2">
@@ -253,6 +295,18 @@
 								class=" language-jsx"><span class="token punctuation">{</span><span class="token punctuation">}</span></code>.
 						</p>
 						<p>9. You can pass read-only properties to a React component via its attributes.</p>
+					</div>
+				</div>
+			</section>
+			<section>
+				<h4 class="blu-color">Using Props in a Class</h4>
+				<div class="flex">
+					<img src="./images/props-class.PNG" class="props-img border-none" alt="">
+					<div class="fs">
+							<p>1,3. When using a React class you can access props
+								off the this implicit parameter.</p>
+						<p>Feel free to use destructuring as well here... </p>
+						<img src="./images/this-props.PNG" class="border-none" alt="">
 					</div>
 				</div>
 			</section>

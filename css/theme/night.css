@@ -359,7 +359,37 @@ section .flex {
 section div .f2 {
   font-size: 2rem;
 }
+.render-image {
+  width: 800px;
+  height: 600px;
+}
+.component-div {
+  font-size: 33px;
+}
+.img-componrnt-lego {
+  height: 400px;
+}
 
+.components-es {
+  display: flex;
+  justify-content: space-between;
+}
+.es {
+  width: 643px;
+  height: 392px;
+}
+
+.div-es {
+  font-size: 30px;
+}
+
+.props-img {
+  height: 500px;
+}
+
+.fs {
+  font-size: 39px;
+}
 /*********************************************
  * PRINT BACKGROUND
  *********************************************/
